@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-Frame Table Scene</title>
+    <src href="styles.css" type="text/css">
+</head>
+<body>
+    <div class="svg-container">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+            <!-- Background with green grass -->
+            <rect width="800" height="600" fill="#8fdf9f" />
+            <rect x="0" y="400" width="800" height="200" fill="#37a044" />
+            
+            <!-- A-frame structure -->
+            <path d="M150,120 L100,450 L700,450 L650,120 Z" fill="#c5e8ff" fill-opacity="0.6" stroke="#2c87c5" stroke-width="4" />
+            <path d="M150,120 L650,120 L700,450 L100,450 Z" fill="none" stroke="#2c87c5" stroke-width="2" stroke-dasharray="10,5" />
+            
+            <!-- Table -->
+            <ellipse cx="400" cy="350" rx="120" ry="40" fill="#8B4513" stroke="#5D2906" stroke-width="3" />
+            <rect x="385" y="350" width="30" height="70" fill="#8B4513" stroke="#5D2906" stroke-width="2" />
+            <ellipse cx="400" cy="420" rx="60" ry="15" fill="#8B4513" stroke="#5D2906" stroke-width="2" />
+            
+            <!-- Chairs -->
+            <!-- Chair 1 -->
+            <ellipse cx="280" cy="360" rx="25" ry="15" fill="#6b481e" stroke="#3e2910" stroke-width="2" />
+            <rect x="275" y="360" width="10" height="50" fill="#6b481e" stroke="#3e2910" stroke-width="1" />
+            <rect x="245" y="385" width="70" height="5" fill="#6b481e" stroke="#3e2910" stroke-width="1" />
+            
+            <!-- Chair 2 -->
+            <ellipse cx="520" cy="360" rx="25" ry="15" fill="#6b481e" stroke="#3e2910" stroke-width="2" />
+            <rect x="515" y="360" width="10" height="50" fill="#6b481e" stroke="#3e2910" stroke-width="1" />
+            <rect x="485" y="385" width="70" height="5" fill="#6b481e" stroke="#3e2910" stroke-width="1" />
+            
+            <!-- Items on the table -->
+            <!-- Milo Tin -->
+            <rect x="350" y="300" width="30" height="40" rx="2" fill="#006400" stroke="#003200" stroke-width="2" />
+            <rect x="355" y="305" width="20" height="15" fill="#ffffff" stroke="#000000" stroke-width="1" />
+            <text x="358" y="317" font-family="Arial" font-size="6" fill="#000000">MILO</text>
+            
+            <!-- Milk Tin -->
+            <rect x="400" y="305" width="25" height="35" rx="2" fill="#ffffff" stroke="#cccccc" stroke-width="2" />
+            <rect x="403" y="310" width="19" height="12" fill="#87CEEB" stroke="#4682B4" stroke-width="1" />
+            <text x="404" y="320" font-family="Arial" font-size="6" fill="#000000">MILK</text>
+            
+            <!-- Cup 1 -->
+            <path d="M440,320 C440,310 450,310 450,320 L447,340 L443,340 Z" fill="#f0f0f0" stroke="#888888" stroke-width="1" />
+            <ellipse cx="445" cy="320" rx="5" ry="2" fill="none" stroke="#888888" stroke-width="1" />
+            
+            <!-- Cup 2 -->
+            <path d="M460,320 C460,310 470,310 470,320 L467,340 L463,340 Z" fill="#f5deb3" stroke="#d2b48c" stroke-width="1" />
+            <ellipse cx="465" cy="320" rx="5" ry="2" fill="none" stroke="#d2b48c" stroke-width="1" />
+            
+            <!-- Decorative elements -->
+            <!-- Centerpiece flower -->
+            <circle cx="400" cy="315" r="8" fill="#ff9999" stroke="#ff6666" stroke-width="1" />
+            <circle cx="400" cy="315" r="3" fill="#ffcc00" />
+            
+            <!-- Path to the A-frame entrance -->
+            <path d="M380,450 L380,500 L420,500 L420,450" fill="#d2b48c" stroke="#8b4513" stroke-width="2" />
+            <path d="M385,450 L385,495 M395,450 L395,495 M405,450 L405,495 M415,450 L415,495" stroke="#8b4513" stroke-width="1" />
+            
+            <!-- A-frame entrance -->
+            <rect x="300" y="80" width="200" height="60" fill="#37a044" stroke="#2d7a35" stroke-width="3" />
+            <ellipse cx="400" cy="80" rx="100" ry="25" fill="#37a044" stroke="#2d7a35" stroke-width="3" />
+            
+            <!-- Sun -->
+            <circle cx="700" cy="100" r="40" fill="#ffdd55" />
+            <circle cx="700" cy="100" r="30" fill="#ffee88" />
+          </svg>
+        
+        <!-- Option 2: Reference external SVG file -->
+        <img src="table-scene.svg" alt="Table Scene with Chairs and Items" width="100%">
+    </div>
+</body>
+</html>
